@@ -7,6 +7,6 @@ router.post("/", handleGenerateNewShortURL);
 
 router.get("/:shortId", redirectToOriginalURL);
 
-router.get("/analytics/:shortId", handleAnalytics)
+router.get("/analytics/:shortId", handleAnalytics);
 
 module.exports = router;
